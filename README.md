@@ -50,7 +50,7 @@ rewrite cap — the *escalation* path is the "cap reached" branch above.
 ## Tech stack
 
 - **LangGraph / LangChain** — workflow graph, conditional edges, structured outputs
-- **Groq** (`llama-3.3-70b-versatile`) — agent reasoning
+- **Groq** (`llama-3.3-70b-versatile`) — agent reasoning. (`openai/gpt-oss-120b`) — fallback model
 - **FastEmbed** (`BAAI/bge-small-en-v1.5`) — local embeddings (Groq has no embeddings API)
 - **FAISS** — local vector store
 - **Streamlit** — UI / workflow inspector
